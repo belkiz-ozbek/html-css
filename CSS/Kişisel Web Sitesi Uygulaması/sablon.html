@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Belkız Özbek'in resmi web sitesi">
+        <meta name="keywords" content="Belkiz, Özbek, web sitesi">
+        <title>Belkiz</title >
+        <link rel="stylesheet" href="style.css">
+         <style>
+            /*Boşlukları Sıfırla*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#sayfa{
+    min-height: 100%;
+    width: 100%;
+    border-style:solid ;
+    border-width: 1px;
+    margin: auto ;
+}
+/* banner */
+#banner{
+    height: 150px;
+    width: 100%;
+    border-style:solid ;
+    border-width: 1px;
+    margin: auto ;
+}
+/* logo */
+#logo{
+    height: 120px;
+    width: 150px;
+    border-style:solid ;
+    border-width: 1px;
+    position: relative;
+    left: 20px;
+    top: 13px;
+}
+/* sosyal mecra ikonları */
+#sosyal{
+    height: 80px;
+    width: 308px;
+    border-style:solid ;
+    border-width: 1px;
+    float: right;
+    position: relative;
+    right: 2px;
+    bottom:53px;
+    margin: 0px;
+    padding: 0px;
+}
+#anamenu {
+        height: 75px;
+        width: 100%;
+        border-style: solid;
+        border-width: 1px;
+        margin: auto;
+        justify-content: space-between;
+        float: left;
+    }
+
+    #anamenu ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        position: relative;
+        left: 550px;
+        top: 30px;
+    }
+
+    #anamenu ul li {
+        padding: 0 10px;  
+    }
+
+    #anamenu ul li a {
+        display: block;
+        margin: 0 5px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    #anamenu ul a:visited{
+        color: brown;
+    }
+
+    #anamenu ul a:hover{
+        color: gray;
+        text-decoration: underline ;
+    }
+
+    #anamenu ul a:active{
+        color: rgb(4, 4, 76);
+        text-decoration: underline ;
+    }
+
+
+#icerik{
+    width: 1028px;
+    height: 600px;
+    border-style: solid;
+    float: left;
+}
+
+.resimler{
+    margin: 10px;
+}
+
+.metin{
+    color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px ;
+}
+
+#yanmenu{
+    width: 400px;
+    height: 600px;
+    border-style: solid;
+    float: right;
+}
+#altmenu{
+    width: 1434px;
+    height: 80px;
+    border-style: solid;
+    float: right;
+    text-align: center;
+}
+
+#altmenu a{
+   font-size: 12px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: bolder;
+   color: black;
+}
+
+#altmenu p{
+   font-size: 12px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: gray;
+}
+
+        </style>
+    </head>
+    <body>
+        
+        <div id="sayfa">
+
+            <header id="banner">
+                <div id="logo">
+                    <a href="index.html"><img src="resimler/yedek.png" alt="logo" title="Belkiz Ozbek"></a>
+                </div>
+                <div id="sosyal">
+                    <a href="#" id="ikon"><img src="resimler/instagram.jpg" alt="instagram"></a>
+                    <a href="#" id="ikon"><img src="resimler/twitter.png" alt="twitter"></a>
+                    <a href="#" id="ikon"><img src="resimler/facebook.png" alt="facebook"></a>
+                </div> 
+            </header>
+
+            <nav id="anamenu">
+                <ul>
+                    <li><a href="index.html">Anasayfa</a></li>
+                    <li><a href="benkimim.html">Ben Kimim</a></li>
+                    <li><a href="egitim.html">Eğitim</a></li>
+                    <li><a href="iletisim.html">İletişim</a></li>
+                </ul>
+            </nav>
+
+            <article id="icerik">
+                
+                <img class="resimler" src="resimler/bayrak.jpg" alt="bayrak" title="Türk Bayrağı"> 
+                <h1>Lorem İpsum</h1>
+                <p class="metin">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet libero ut tortor 
+                    tincidunt consectetur sit amet ac velit. Donec ut diam metus. Vestibulum ante ipsum primis
+                     in faucibus orci luctus et ultrices posuere cubilia curae; Nulla mauris risus, 
+                     fermentum at tellus in, bibendum mattis ex. Proin molestie efficitur aliquam. 
+                     Nunc sodales, mi et commodo posuere, metus nisl tempor sem, ut maximus turpis 
+                     ex quis eros. Etiam laoreet ligula a elit aliquam, nec sodales nibh bibendum. 
+                     Fusce vitae urna orci. Integer pellentesque sit amet odio at faucibus. Morbi l
+                     acinia fermentum neque, vitae blandit odio iaculis in. Nunc efficitur convallis dolor ac feugiat.</p>
+            </article>
+
+            <aside id="yanmenu">
+                <h1>Haber 1</h1>
+                <p>ligula a elit aliquam, nec sodales nibh bibendum. 
+                    Fusce vitae urna orci. Integer pellentesque sit amet odio at faucibus. Morbi l
+                    acinia fermentum neque, vitae blandit odio</p>
+                    <br><br><br><br><br><br>
+                    <h1>Haber 2</h1>
+                <p>ligula a elit aliquam, nec sodales nibh bibendum. 
+                    Fusce vitae urna orci. Integer pellentesque sit amet odio at faucibus. Morbi l
+                    acinia fermentum neque, vitae blandit odio</p>
+                    <br><br><br><br><br><br>
+                    <h1>Haber 3</h1>
+                <p>ligula a elit aliquam, nec sodales nibh bibendum. 
+                    Fusce vitae urna orci. Integer pellentesque sit amet odio at faucibus. Morbi l
+                    acinia fermentum neque, vitae blandit odio</p>
+            </aside>
+
+            <footer id="altmenu">
+                    <a href="index.html">Anasayfa</a> |
+                    <a href="benkimim.html">Ben Kimim</a> |
+                    <a href="egitim.html">Eğitim</a> |
+                    <a href="iletisim.html">İletişim</a>
+                    <p>Tüm Hakları Saklıdır</p>
+            </footer>
+
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--"position: fixed" tarayıcıya göre konum belirlerken, 
+            "position: absolute" üst ögesine göre konum alır.-->
+        <style>
+            div{
+                border-style: solid;
+                border-color: blue;
+            }
+            #big{
+                width: 200px;
+                height: 150px;
+                border-color:chartreuse;
+                background-color:bisque;
+                position: fixed;
+                right: 30px;
+                bottom: 30px;
+            }
+            #small{
+                width: 100px;
+                height: 70px;
+                background-color: aquamarine;
+                position: absolute;
+                left: 10px;
+                top: 10px; 
+            }
+        </style>
+    </head>
+    <body>
+        <div id="big">
+            <div id="small">
+
+            </div>
+        </div>
+        
+    </body>
+</html>

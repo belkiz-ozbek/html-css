@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>Uye Kayit Formu</h1>
+        <form action="kayit.php" method="get">
+
+            <!--"required" => veri girişi zorunlu-->
+
+            Ad Soyad: <input type="text" name="adsoyad" id="idAdSoyad"
+            size="20" maxlength="30" required>
+            <br>
+            <br>
+            
+            Email:<input type="email" name="Email" id="">
+            <br>
+            <br>
+            Web Sitesi: <input type="url" name="adres" id="adres">
+            <br>
+            <br>
+            Yaşiniz: <input type="number" name="yaş" id="yaş" required>
+            <br>
+            <br>
+
+            <!--"value" tagını örneğin submit yerine farklı bir mesaj yazmak istediiğimzide kullanırız-->
+            <input type="submit" value="Gönder">
+            <input type="reset" value="sil">
+            
+        </form> 
+    </body>
+</html>
